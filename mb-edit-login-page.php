@@ -71,6 +71,7 @@ function mb_login_style()
       content: url("<?php echo TICKER; ?>");
     }
 
+    /* #nav and #backtoblog link styles on hover */
     .login #nav a:hover,
     .login #backtoblog a:hover {
       color: #c11718 !important;
