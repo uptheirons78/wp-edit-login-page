@@ -33,6 +33,7 @@ function mb_login_style()
       background: linear-gradient(0deg, rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.93)), url("<?php echo BACKGROUND; ?>");
       background-size: cover;
     }
+
     /* Logo styles: change logo width and height as needed */
     #login h1 a,
     .login h1 a {
@@ -42,6 +43,7 @@ function mb_login_style()
       background-size: 320px 159px;
       background-repeat: no-repeat;
     }
+
     /* Inputs styles: username, password and remember-me inputs */
     .login input[type=text]:focus,
     .login input[type=password]:focus,
@@ -50,26 +52,31 @@ function mb_login_style()
       box-shadow: 0 0 0 1px #c11718;
       outline: 2px solid transparent;
     }
+
     /* Icon inside password input styles */
     .login .dashicons-visibility,
     .login .dashicons-hidden {
       color: #c11718;
     }
+
     /* Focus styles for hide password button */
     .login .button.wp-hide-pw:focus {
       border-color: #c11718 !important;
       box-shadow: 0 0 0 1px #c11718 !important;
       outline: 2px solid transparent;
     }
+
     /* Ticker styles for remember-me checkbox when checked */
     .login .forgetmenot input[type=checkbox]:checked::before {
       content: url("<?php echo TICKER; ?>");
     }
+
     /* Submit button styles */
     .login .button-primary {
       background: #c11718 !important;
       border-color: #c11718 !important;
     }
+
     /* Privacy Policy link styles */
     .login .privacy-policy-link {
       color: #c11718;
@@ -93,6 +100,11 @@ function mb_login_style()
       border-color: #c11718;
       background: #f6f7f7;
       vertical-align: top;
+    }
+
+    /* Loged out message styles */
+    .login .message {
+      border-left: 4px solid #c11718 !important;
     }
   </style>
 <?php }
