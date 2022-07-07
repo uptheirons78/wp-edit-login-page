@@ -71,6 +71,11 @@ function mb_login_style()
       content: url("<?php echo TICKER; ?>");
     }
 
+    .login #nav a:hover,
+    .login #backtoblog a:hover {
+      color: #c11718 !important;
+    }
+
     /* Submit button styles */
     .login .button-primary {
       background: #c11718 !important;
